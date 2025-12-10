@@ -1,0 +1,30 @@
+PART 1: THEORETICAL ANALYSIS (30%)
+Q1: How AI code-generation tools reduce development time + their limitations
+AI-driven tools like GitHub Copilot reduce development time by generating boilerplate code, autocomplete functions, suggesting algorithms, and anticipating what the developer wants next. This means devs spend less time on repetitive tasks and more time on architecture, debugging, and creative logic. These tools also speed up onboarding because beginners can quickly understand patterns by seeing real examples.
+
+But they still have limitations. AI suggestions can be inaccurate, inefficient, or insecure. Sometimes the model hallucinates code that looks correct but fails logically. They can also reinforce bad patterns from their training data. They don’t replace real debugging, system design, or secure coding practices. And if devs over-rely on them, they might lose problem-solving skill. AI code generators boost speed — but they’re not “write my whole app” magic.
+
+Q2: Compare supervised vs unsupervised learning in automated bug detection
+Supervised learning detects bugs by training on labeled examples of “buggy” vs “clean” code. The model learns patterns associated with defects, security vulnerabilities, or anti-patterns. This approach is accurate when high-quality labeled datasets exist.
+
+Unsupervised learning finds bugs by spotting anomalies in code without requiring labels. It groups normal code patterns and flags outliers — unusual logic, strange structures, or suspicious dependencies. It's useful when labeled bug datasets are hard to build.
+
+Supervised = high accuracy, needs labeled data.
+Unsupervised = more flexible, but less precise.
+
+Q3: Why bias mitigation is critical in AI-driven user experience personalization
+Personalization engines use user data to adjust content, recommendations, UI flow, or ads. If that data is biased — like overrepresenting one demographic or behavior type — the experience becomes unfair or exclusionary. Users outside the majority pattern get poor recommendations, limited visibility, or harmful assumptions.
+
+Bias mitigation ensures personalization stays inclusive, avoids discrimination, and keeps the product socially and ethically responsible. It protects users from being profiled incorrectly, maintains trust, and ensures that personalization enhances experience instead of reinforcing stereotypes.
+
+Case Study: How AIOps improves software deployment efficiency
+AIOps enhances deployment efficiency by automating repetitive DevOps tasks and predicting failures before they happen. It uses machine learning to analyze logs, events, and monitoring data, reducing manual troubleshooting.
+
+Examples:
+1. Automated anomaly detection:
+AIOps detects unusual spikes in errors or CPU usage during deployment and automatically rolls back or alerts the team before a system outage occurs.
+
+2. Intelligent incident prediction:
+AIOps analyzes historical patterns to predict deployment risks — like which services are likely to break — enabling teams to prevent failures before pushing code.
+
+This reduces downtime, accelerates delivery, and improves reliability.
