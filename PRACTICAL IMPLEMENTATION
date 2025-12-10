@@ -1,0 +1,11 @@
+
+#Manual Implementation
+def sort_dict_list(data, key):
+    return sorted(data, key=lambda x: x[key])
+#AI-Suggested Code ( Copilot)
+def sort_by_key(items, key):
+    try:
+        return sorted(items, key=lambda d: d.get(key))
+    except Exception as e:
+        print("Sort failed:", e)
+        return items
